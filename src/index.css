@@ -882,13 +882,13 @@ a{
     height:40vh;
     width:80%;
    }
-   .bottom ul{
-    display:flex;
+   .bottom ul li a{
+    margin:0 10px;
    }
    /*Feature*/
   #gik .vince{
     min-width:97%;
-    margin:30%;
+    margin:29%;
    }
   
   /*form*/
@@ -943,25 +943,6 @@ a{
   }
     }
     
-     @media(max-width:360px){
-      .bottom ul{
-        display:flex;
-        flex-direction:column;
-       }
-     }
-     @media(max-width:430px){
-        /*Feature*/
-  #gik .vince{
-    margin:10%;
-   }
-     }
-     @media(max-width:375px){
-         /*Feature*/
-  #gik .vince{
-    margin:22%;
-   }
-     }
-
 
 
 
