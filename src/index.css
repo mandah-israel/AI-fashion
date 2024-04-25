@@ -633,17 +633,17 @@ a{
 
 
 
-@media (min-width:768px) and (max-width:1024px){
+@media  (min-width:768px) and (max-width:1024px){
    /*header*/
    .ma-g{
     margin:60px 4px;
   }
   .pa-d{
-    margin:100px 20px;
+    margin:160px 20px;
   }
   #header{
     width:100%;
-    height:8vh;
+    height:9vh;
   }
    #header img{
     max-width:60%;
@@ -680,7 +680,7 @@ a{
  }
  /*Home*/
  .vin .vull{
-  min-width:50%;
+  min-width:40%;
   height:14vh;
  }
 /*swiper*/
@@ -696,17 +696,17 @@ a{
   align-items:center;
 }
 #pro-con{
-  max-width:40%;
-  margin:25px;
+  min-width:30%;
+  margin:20px;
 }
 #pro-con .bell{
-  right:25px;
+  right:65px;
 }
 #pro-con .bon{
-  right:20px;
+  right:60px;
 }
 #pro-con .belt{
-  right:32px;
+  right:70px;
 }
 
 #container{
@@ -714,8 +714,8 @@ a{
   flex-direction:column;
  }
  .magin{
-  height:92vh;
-  width:55%;
+  height:78vh;
+  width:65%;
   margin:30px;
  }
   /*REFSHION*/
@@ -726,24 +726,26 @@ a{
     align-items:center;
    }
    #con .firm{
-    margin:0;
+    margin:20px;
    }
    #con img{
     height:70vh;
+    width:95%;
    }
      /*About*/
-  .about{
-    height:50vh;
-    width:50%;
-   }
-   /*Design*/
-   .name img{
-    max-width:250px;
-    height:30vh;
-   }
-   .gint{
-    max-width:100%;
-   }
+     .about{
+      height:36vh;
+      width:60%;
+     }
+      /*Design*/
+      .name img{
+        min-width:300px;
+        height:30vh;
+       }
+       .gint{
+        min-width:100%;
+        height:100vh;
+       }
    /*form*/
    .form{
     width:70%;
@@ -759,11 +761,11 @@ a{
    }
    /*Term*/
 .filo{
-  max-width:75%;
+  max-width:95%;
 }
      }
-  @media (max-width:768px){
-    .ma-g{
+  @media (min-width:320px) and (max-width:768px){
+    .ma-g{  
       margin:20px 10px;
     }
     .pa-d{
@@ -811,10 +813,11 @@ a{
       transition:0.5s ease;
     }
       /*Home*/
-     .vin .vull{
-      min-width:86%;
-      height:14vh;
-     }
+      /*Home*/
+    .vin .vull{
+     min-width:50%;
+     height:14vh;
+      }
      /*swiper*/
    .swiper img{
      height:60vh;
@@ -824,17 +827,17 @@ a{
    max-height:60vh;
    }
    #pro-con{
-   min-width:350px;
+   max-width:100%;
     margin:10px;
   }
   #pro-con .bell{
-    right:115px;
+    right:37px;
   }
   #pro-con .bon{
-    right:120px;
+    right:35px;
   }
   #pro-con .belt{
-    right:122px;
+    right:45px;
   }
   .pro{
     display:flex;
@@ -862,38 +865,39 @@ a{
     width:85%;
     margin:30px;
    }
+   
      /*REFSHION*/
   #con{
     display:flex;
     flex-direction:column;
    }
+   #con .firm{
+    margin:10px;
+   }
    #con img{
     height:70vh;
-   }
-   #con .firm{
-    margin:0;
+    width:98%;
    }
    .img img{
-    height:18vh;
+    height:20vh;
 
    }  
         /*About*/
   .about{
-    height:40vh;
-    width:80%;
+    height:48vh;
+    width:70%;
    }
    .bottom ul li a{
     margin:0 10px;
    }
    /*Feature*/
   #gik .vince{
-    min-width:97%;
-    margin:29%;
+    margin:35px;
    }
   
   /*form*/
   .form{
-    width:85%;
+    width:86%;
     height:52vh;
   }
   .slide .name{
@@ -914,18 +918,13 @@ a{
     padding: 15px 107px;
   }
      /*Design*/
-        /*Design*/
-    #you{
-      flex-direction:column;
-        }
    .name img{
-    max-width:100%;
-    min-height:50vh;
+    min-width:250px;
+    height:30vh;
    }
    .gint{
     min-width:100%;
-    height:260vh;
-    margin:10px;
+    height:100vh;
    }
       /*FAQ*/
  #faq{
@@ -942,6 +941,89 @@ a{
     
   }
     }
+    
+    @media (max-width:540px){
+           /*Design*/
+   .gint{
+    height:165vh;
+   }
+   .name img{
+    min-width:300px;
+    height:30vh;
+   }
+   /*feature*/
+#gik .vince{
+  min-width:350px;
+  margin:70px;
+}
+/*Home*/
+.vin .vull{
+  min-width:70%;
+  height:14vh;
+   } 
+   #pro-con .bell{
+    right:58px;
+  }
+  #pro-con .bon{
+    right:55px;
+  }
+  #pro-con .belt{
+    right:70px;
+  }
+  }
+@media(max-width:430px){
+  /*Home*/
+  .vin .vull{
+    min-width:100%;
+    height:14vh;
+     }
+     #pro-con .bell{
+      right:95px;
+    }
+    #pro-con .bon{
+      right:95px;
+    }
+    #pro-con .belt{
+      right:99px;
+     }
+     .img img{
+      height:17vh;
+     } 
+     .magin{
+      height:75vh;
+     } 
+    
+       }
+    @media (max-width:375px){
+         #pro-con .bell{
+          right:55px;
+        }
+        #pro-con .bon{
+          right:45px;
+        }
+        #pro-con .belt{
+          right:60px;
+        }
+ }
+
+
+    @media (max-width:360px){
+      .vin .vull{
+        min-width:120%;
+         }
+         #pro-con .bell{
+          right:67px;
+        }
+        #pro-con .bon{
+          right:60px;
+        }
+        #pro-con .belt{
+          right:74px;
+        }
+ }
+
+
+
     
 
 
