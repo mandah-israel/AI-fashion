@@ -633,7 +633,7 @@ a{
 
 
 
-@media  (min-width:721px) and (max-width:1024px){
+@media  (min-width:651px) and (max-width:1024px){
    /*header*/
    .ma-g{
     margin:60px 4px;
@@ -764,9 +764,9 @@ a{
   max-width:95%;
 }
      }
-  @media (min-width:320px) and (max-width:720px){
+  @media (min-width:320px) and (max-width:650px){
     .ma-g{  
-      margin:20px 10px;
+      margin:70px 10px;
     }
     .pa-d{
       margin:100px 20px;
@@ -775,10 +775,10 @@ a{
     /*header*/
 #header{
   padding:0 30px;
-  height:9vh;
+  height:11vh;
 }
      #header img{
-      max-width:43px;
+      max-width:38px;
     } 
     #header .vex{
       display:flex;
@@ -863,7 +863,7 @@ a{
    .magin{
     height:78vh;
     width:85%;
-    margin:30px;
+    margin:40px auto;
    }
    
      /*REFSHION*/
@@ -884,27 +884,27 @@ a{
    }  
         /*About*/
   .about{
-    height:48vh;
-    width:70%;
+    height:55vh;
+    width:72%;
    }
    .bottom ul li a{
     margin:0 10px;
    }
    /*Feature*/
   #gik .vince{
-    margin:35px;
+    margin:33px;
    }
   
   /*form*/
   .form{
-    width:86%;
-    height:52vh;
+    width:90%;
+    height:65vh;
   }
   .slide .name{
     top:6px;
   }
   .fix{
-    height:65vh;
+    height:80vh;
   }
   .form .log{
     margin:10px 0;
@@ -919,12 +919,12 @@ a{
   }
      /*Design*/
    .name img{
-    min-width:250px;
-    height:30vh;
+    min-width:240px;
+    height:35vh;
    }
    .gint{
     min-width:100%;
-    height:100vh;
+    height:110vh;
    }
       /*FAQ*/
  #faq{
