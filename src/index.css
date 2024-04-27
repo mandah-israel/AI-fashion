@@ -633,7 +633,7 @@ a{
 
 
 
-@media  (min-width:651px) and (max-width:1024px){
+@media  (min-width:769px) and (max-width:1024px){
    /*header*/
    .ma-g{
     margin:60px 4px;
@@ -778,7 +778,7 @@ a{
   height:11vh;
 }
      #header img{
-      max-width:38px;
+      max-width:40px;
     } 
     #header .vex{
       display:flex;
@@ -827,8 +827,9 @@ a{
    max-height:60vh;
    }
    #pro-con{
-   max-width:100%;
-    margin:10px;
+   min-width:90%;
+   min-height:8vh;
+    margin:20px;
   }
   #pro-con .bell{
     right:37px;
@@ -861,7 +862,7 @@ a{
     height:vh;
    }
    .magin{
-    height:78vh;
+    height:100vh;
     width:85%;
     margin:40px auto;
    }
@@ -885,15 +886,18 @@ a{
         /*About*/
   .about{
     height:55vh;
-    width:72%;
+    width:90%;
    }
    .bottom ul li a{
     margin:0 10px;
    }
    /*Feature*/
-  #gik .vince{
-    margin:33px;
-   }
+ /*feature*/
+#gik .vince{
+  max-height:60vh;
+  max-width:35%;
+  margin:55px;
+} 
   
   /*form*/
   .form{
