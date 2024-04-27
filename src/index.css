@@ -764,7 +764,7 @@ a{
   max-width:95%;
 }
      }
-  @media (min-width:320px) and (max-width:768px){
+  @media (min-width:320px) and (max-width:650px){
     .ma-g{  
       margin:20px 10px;
     }
