@@ -113,15 +113,15 @@ li a{
   margin-top:59px;
 }
 #pro-con{
-  max-width:18%;
-  max-height:40vh;
+  max-width:300px;
+  max-height:250px;
   border:1px solid transparent;
   position:relative;
-  margin:45px;
+  margin:30px;
 }
 #pro-con img{
  width:100%;
- height:40vh;
+ height:250px;
  object-fit:cover;
  border-radius:10px;
  cursor: pointer;
@@ -137,12 +137,14 @@ li a{
   position:absolute;
   border-radius:15px;
   background-color:rgba(245, 245, 245, 0.671);
+  bottom:2px;
+  left:50%;
+  transform:translateX(-50%);
   padding:7px 15px;
-  bottom:3px;
-  right:50px;
   border:none;
+  width:200px;
 }
-#pro-con .bell{
+/*#pro-con .bell{
   bottom:3px;
   right:40px;
 }
@@ -150,6 +152,7 @@ li a{
   bottom:3px;
   right:30px;
 }
+*/
  #pro-con button a{
   text-decoration:none;
   font-size:15px;
@@ -165,8 +168,8 @@ li a{
  
  /*container*/
  .magin{
-  height:90vh;
-  width:30%;
+  height:500px;
+  max-width:600px;
   background-color:rgba(245, 245, 245, 0.76);
   line-height:28px;
   padding:30px 20px;
@@ -197,7 +200,7 @@ li a{
  }
  .img img{
   width:200px;
-  height:25vh;
+  height:150px;
   object-fit:cover;
   border-radius:13px;
   margin:10px;
@@ -254,8 +257,8 @@ li a{
  }
  /*About*/
  .about{
-  height:40vh;
-  width:30%;
+  height:215px;
+  width:500px;
   background-color:rgba(245, 245, 245, 0.76);
   line-height:28px;
   padding:30px 20px;
@@ -317,10 +320,10 @@ li a{
 }
 /*feature*/
 #gik .vince{
-  max-height:50vh;
+  max-height:270px;
   max-width:250px;
   border:1px solid transparent;
-  margin:32px;
+  margin:60px;
 } 
 .vince img{
   width:100%;
@@ -365,41 +368,41 @@ li a{
   justify-content:center;
   align-items:center;
   line-height:30px;
-  height:60vh;
-  width:27%;
+  height:500px;
+  width:500px;
   background-color:rgba(245, 245, 245, 0.76);
   margin: 120px auto;
   border-radius:15px;
 }
 .fix{
-  height:70vh;
+  height:570px;
 }
 .form input{
-  height:6vh;
-  width:270px;
+  height:40px;
+  width:300px;
   padding:6px;
   border-radius:7px;
   border:1px solid grey;
   color:black;
 }
 .form label{
-  margin-right:198px;
+  margin-right:230px;
   font-size:15px;
 }
 .form .email{
-  margin-right:228px;
+  margin-right:258px;
 }
 .slide{
   position: relative;
 }
 .form .use{
-  margin-right:200px;
+  margin-right:228px;
 }
 .form .emma{
-  margin-right:185px;
+  margin-right:214px;
 }
 .form .fux{
-  margin-right:165px;
+  margin-right:198px;
 }
 .slide .name{
   position: absolute;
@@ -422,13 +425,13 @@ li a{
   margin:20px 0;
 }
 .log button{
-  padding: 10px 116px;
+  padding: 10px 130px;
   border-radius:7px;
   border:none;
   background-color:black;
 }
 .seem button{
-  padding: 10px 107px;
+  padding: 10px 123px;
   border-radius:7px;
   border:none;
   background-color:black;
@@ -481,11 +484,11 @@ a{
   font-size:11px;
   border-radius:6px;
   color:white;
-  background-color:rgba(0, 0, 255, 0.5);
+  background-color:rgba(0, 0, 255, 0.336);
 }
 .name img{
-  max-width:280px;
-  height:30vh;
+  max-width:250px;
+  height:200px;
   object-fit:cover;
   cursor: pointer;
   border-radius:14px;
@@ -494,12 +497,12 @@ a{
   background-color:rgba(0, 0, 0, 0.911);
   border-radius:10px;
   padding:10px 20px;
-  max-width:40%;
-  height:90vh;
+  max-width:550px;
+  height:700px;
   margin:30px;
  }
  .gint h4{
-  color:rgba(0, 0, 255, 0.5);
+  color:rgba(0, 0, 255, 0.808);
  }
  .gint p{
   color:white;
@@ -513,7 +516,7 @@ a{
  }
  /*FAQ*/
  #faq{
-  max-width:45%;
+  max-width:600px;
  margin:0 auto;
  }
  #faq .gon, .trum, .voar, .gonna, .coll, .mall{
@@ -528,12 +531,11 @@ a{
   margin:2px;
   border-bottom:2px solid black;
   cursor: pointer;
-  min-width:30%;
  }
  .open, .display{
-  max-height:65vh;
+  max-height:600px;
   transition:0.5s ease;
-  min-width:30%;
+  min-width:600px;
   background-color:rgba(245, 245, 245, 0.61);
   border-radius:3px;
   padding:3px 7px;
@@ -556,9 +558,9 @@ a{
   color:black;
  }
  .unvail{
-  max-height:60vh;
+  max-height:600px;
   transition:0.5s ease;
-  min-width:35%;
+  min-width:600px;
   background-color:rgba(245, 245, 245, 0.61);
   padding:3px 7px;
   border-radius:3px;
@@ -571,13 +573,13 @@ a{
   align-items:center;
   margin:0 auto;
   background-color:rgba(245, 245, 245, 0.76);
-  height:65vh;
-  width:27%;
+  height:500px;
+  width:500px;
   border-radius:15px;
  }
  .passion input, select{
-  height:6vh;
-  width:270px;
+  height:40px;
+  width:300px;
   padding:6px;
   border-radius:7px;
   border:1px solid grey;
@@ -586,8 +588,8 @@ a{
   margin:10px;
 }
 .passion textarea{
-  height:20vh;
-  width:270px;
+  height:120px;
+  width:300px;
   padding:6px;
   border-radius:7px;
   border:1px solid grey;
@@ -595,11 +597,11 @@ a{
   margin:15px;
 }
 .passion .lab{
-  margin-right:140px;
+  margin-right:169px;
   font-size:15px; 
 }
 .passion label{
-  margin-right:198px;
+  margin-right:230px;
   font-size:15px;
 }
 .pix{
@@ -646,7 +648,7 @@ a{
     height:9vh;
   }
    #header img{
-    max-width:60%;
+    max-width:45px;
   } 
   #header .vex{
     display:flex;
@@ -680,88 +682,53 @@ a{
  }
  /*Home*/
  .vin .vull{
-  min-width:40%;
-  height:14vh;
+  min-width:400px;
+  height:60px;
  }
 /*swiper*/
 .swiper img{
-  height:60vh;
+  height:500px;
 }
 .swiper{
-  max-width:70%;
+  max-width:700px;
   margin:0 auto;
-  max-height:60vh;
+  max-height:400px;
   display:flex;
   justify-content:center;
   align-items:center;
 }
 #pro-con{
-  min-width:30%;
-  margin:20px;
-}
-#pro-con .bell{
-  right:65px;
-}
-#pro-con .bon{
-  right:60px;
-}
-#pro-con .belt{
-  right:70px;
+  max-width:700px;
+  margin:43px;
 }
 
 #container{
   display:flex;
   flex-direction:column;
  }
- .magin{
-  height:78vh;
-  width:65%;
-  margin:30px;
- }
   /*REFSHION*/
   #con{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-   }
+    margin:20px;
+  }
+ 
    #con .firm{
+    line-height:32px;
     margin:20px;
    }
-   #con img{
-    height:70vh;
-    width:95%;
-   }
-     /*About*/
-     .about{
-      height:36vh;
-      width:60%;
-     }
       /*Design*/
       .name img{
         min-width:300px;
-        height:30vh;
+        height:200px;
        }
        .gint{
         min-width:100%;
-        height:100vh;
+        height:600px;
        }
-   /*form*/
-   .form{
-    width:70%;
-  }
-   /*FAQ*/
- #faq{
-  max-width:90%;
- }
+   /*FAQ*
   /*Contact*/
-  .passion{
-    width:70%;
-  
-   }
    /*Term*/
 .filo{
-  max-width:95%;
+  max-width:800px;
 }
      }
   @media (min-width:320px) and (max-width:768px){
@@ -775,7 +742,7 @@ a{
     /*header*/
 #header{
   padding:0 30px;
-  height:11vh;
+  height:8vh;
 }
      #header img{
       max-width:40px;
@@ -813,33 +780,26 @@ a{
       transition:0.5s ease;
     }
       /*Home*/
-      /*Home*/
-    .vin .vull{
-     min-width:50%;
-     height:14vh;
-      }
+ .vin .vull{
+  min-width:400px;
+  height:60px;
+ }
      /*swiper*/
    .swiper img{
-     height:60vh;
+     height:450px;
     }
    .swiper{
-   max-width:80%;
-   max-height:60vh;
+   max-width:300px;
+   max-height:400px;
    }
    #pro-con{
-   min-width:90%;
-   min-height:8vh;
-    margin:20px;
+    max-width:300px;
+    max-height:250px;
+    border:1px solid transparent;
+    position:relative;
+    margin:30px;
   }
-  #pro-con .bell{
-    right:37px;
-  }
-  #pro-con .bon{
-    right:35px;
-  }
-  #pro-con .belt{
-    right:45px;
-  }
+
   .pro{
     display:flex;
     justify-content:center;
@@ -861,11 +821,6 @@ a{
    .game{
     height:vh;
    }
-   .magin{
-    height:100vh;
-    width:85%;
-    margin:40px auto;
-   }
    
      /*REFSHION*/
   #con{
@@ -873,42 +828,43 @@ a{
     flex-direction:column;
    }
    #con .firm{
-    margin:10px;
+    margin:20px;
    }
    #con img{
-    height:70vh;
-    width:98%;
+    min-width:300px;
+    height:700px;
    }
-   .img img{
-    height:20vh;
+    /*container*/
+ .magin{
+  height:500px;
+  max-width:350px;
+  margin:40px auto;
+ }
 
-   }  
         /*About*/
-  .about{
-    height:55vh;
-    width:90%;
-   }
    .bottom ul li a{
     margin:0 10px;
    }
-   /*Feature*/
- /*feature*/
+   /*About*/
+ .about{
+  height:270px;
+  width:350px;
+ }
+/*feature*/
 #gik .vince{
-  max-height:60vh;
-  max-width:35%;
-  margin:55px;
+  max-height:335px;
+  max-width:250px;
+  border:1px solid transparent;
+  margin:60px;
 } 
   
   /*form*/
-  .form{
-    width:90%;
-    height:65vh;
+  .form input{
+    height:40px;
+    width:300px;
   }
   .slide .name{
     top:6px;
-  }
-  .fix{
-    height:80vh;
   }
   .form .log{
     margin:10px 0;
@@ -916,113 +872,107 @@ a{
   .form .seem{
     margin:10px 0;
   }.log button{
-    padding: 15px 116px;
+    padding: 15px 130px;
   }
   .seem button{
-    padding: 15px 107px;
+    padding: 15px 124px;
+  }
+  .form{
+    height:500px;
+    width:370px;
+  }
+  .fix{
+    height:570px;
   }
      /*Design*/
-   .name img{
-    min-width:240px;
-    height:35vh;
-   }
-   .gint{
-    min-width:100%;
-    height:110vh;
-   }
-      /*FAQ*/
- #faq{
-  max-width:90%;
- margin:0 auto;
- }
+     .name img{
+      max-width:250px;
+      height:200px;
+      object-fit:cover;
+      cursor: pointer;
+      border-radius:14px;
+     }
+     .gint{
+      background-color:rgba(0, 0, 0, 0.911);
+      border-radius:10px;
+      padding:10px 20px;
+      max-width:550px;
+      height:700px;
+      margin:30px;
+     }
+      /*Contact*/
  .passion{
-  width:85%;
-  height:68vh;
-}
+  height:500px;
+  width:370px;
+ }
+      /*FAQ*/
+
    /*Term*/
    .filo{
-    max-width:100%
-    
+    max-width:800px;
   }
     }
 
-    
-    @media (max-width:540px){
-           /*Design*/
-   .gint{
-    height:165vh;
-   }
-   .name img{
-    min-width:300px;
-    height:30vh;
+@media(max-width:540px){
+  .gint{
+    max-width:400px;
+    min-height:1100px;
+    margin:30px;
    }
    /*feature*/
 #gik .vince{
-  min-width:350px;
-  margin:70px;
-}
-/*Home*/
-.vin .vull{
-  min-width:70%;
-  height:14vh;
-   } 
-   #pro-con .bell{
-    right:58px;
-  }
-  #pro-con .bon{
-    right:55px;
-  }
-  #pro-con .belt{
-    right:70px;
-  }
-  }
-@media(max-width:430px){
-  /*Home*/
-  .vin .vull{
-    min-width:100%;
-    height:14vh;
-     }
-     #pro-con .bell{
-      right:95px;
-    }
-    #pro-con .bon{
-      right:95px;
-    }
-    #pro-con .belt{
-      right:99px;
-     }
-     .img img{
-      height:17vh;
-     } 
-     .magin{
-      height:75vh;
-     } 
-    
-       }
-    @media (max-width:375px){
-         #pro-con .bell{
-          right:55px;
-        }
-        #pro-con .bon{
-          right:45px;
-        }
-        #pro-con .belt{
-          right:60px;
-        }
- }
+  max-height:405px;
+  max-width:400px;
+  border:1px solid transparent;
+  margin:55px;
+} 
 
+       }
+
+       @media(max-width:430px){
+         /*feature*/
+      #gik .vince{
+        max-height:405px;
+        max-width:400px;
+        border:1px solid transparent;
+        margin:38px;
+      } 
+             /*Home*/
+             .vin .vull{
+              min-width:350px;
+              height:60px;
+             }
+      
+             }
+           
+     
 
     @media (max-width:360px){
-      .vin .vull{
-        min-width:110%;
-         }
-         #pro-con .bell{
-          right:67px;
-        }
-        #pro-con .bon{
-          right:60px;
-        }
-        #pro-con .belt{
-          right:74px;
-        }
+    
+    #con .firm{
+     margin:7px;
+    }
+    .form{
+      height:500px;
+      width:350px;
+    }
+    .fix{
+      height:570px;
+    }
+     /*Contact*/
+ .passion{
+  width:350px;
+ }
+       /*Home*/
+       .vin .vull{
+        min-width:350px;
+        height:60px;
+       }
+       /*feature*/
+#gik .vince{
+  max-height:335px;
+  max-width:350px;
+  border:1px solid transparent;
+  margin:39px;
+} 
  }
