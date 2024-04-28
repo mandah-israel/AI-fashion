@@ -836,7 +836,7 @@ a{
    }
    #con img{
     min-width:300px;
-    height:500px;
+    height:650px;
    }
     /*container*/
  .magin{
@@ -945,6 +945,9 @@ a{
              .vin .vull{
               min-width:350px;
               height:60px;
+             }
+             #con img{
+              height:500px;
              }
       
              }
