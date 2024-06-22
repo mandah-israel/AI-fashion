@@ -65,7 +65,7 @@ li a{
 }
 .vin .vull{
   height:10vh;
-  width:30%;
+  width:25%;
   display:flex;
   justify-content:center;
   align-items:center;
@@ -170,7 +170,7 @@ li a{
  /*container*/
  .magin{
   height:500px;
-  max-width:600px;
+  max-width:450px;
   background-color:rgba(245, 245, 245, 0.76);
   line-height:28px;
   padding:30px 20px;
@@ -196,12 +196,12 @@ li a{
  }
  .img{
   display:flex;
-  justify-content:center;
+  justify-content:flex-start;
   align-items:center; 
  }
  .img img{
   width:190px;
-  height:190px;
+  height:160px;
   object-fit:cover;
   border-radius:13px;
   margin:10px;
@@ -233,11 +233,11 @@ li a{
   flex-direction:column;
   justify-content:center;
   align-items: flex-start;
-  line-height:48px;
+  line-height:28px;
   margin:30px;
  }
  #con .confirm{
-  line-height:45px; 
+  line-height:28px; 
  }
  #button button{
   background-color:rgba(0, 0, 0, 0.973);
@@ -709,7 +709,7 @@ a{
 }
 #pro-con{
   max-width:700px;
-  margin:43px;
+  margin:49px;
 }
 
 #container{
